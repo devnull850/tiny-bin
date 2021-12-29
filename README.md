@@ -13,11 +13,11 @@ Modifying various fields in the ELF header and one program header will allow the
 | ELF		| 0x18		| 8	| Entry point address   |
 | ELF		| 0x28          | 8	| Section Header start  |
 | ELF		| 0x38		| 2     | Number of entries     |
-|					  Program Header Table	|
+|		|		|	| Program Header Table	|
 | ELF		| 0x3c		| 2	| Number of entries     |
-|					  Section Header Table  |
+|		|		|	| Section Header Table  |
 | ELF		| 0x3e		| 2	| Index Section Header  |
-|					  Table with names      |
+|		|		|	| Table with names      |
 | Program	| offset+0x8	| 8	| Offset in file image  |
 | Program	| offset+0x10	| 8	| Virtual address       |
 | Program	| offset+0x18	| 8	| Physical address	|
